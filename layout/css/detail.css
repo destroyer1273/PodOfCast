@@ -134,7 +134,7 @@ header {
     font-size: 16px;
     line-height: 160%;
     margin-bottom: 30px;
-    text-align: center;
+    
     max-width: 766px;
     color: #4D4D4D;
     margin-bottom: 70px;
@@ -143,10 +143,12 @@ header {
     position: absolute;
     left: 0px;
     top: 10px;
+    z-index: 1;
 }
 .backimg2 {
     right: 30px;
     position: absolute;
+    z-index: 1;
 }
 .header__slider {
     height: 373px;
@@ -163,6 +165,7 @@ header {
     grid-column: 1/3;
     display: flex;
     align-items: center;
+    z-index: 2;
 }
 .header__sponsors__right {
     grid-column: 4/13;
@@ -170,6 +173,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
 }
 .about__main__inf__h11{
     font-weight: 700;
@@ -179,6 +183,7 @@ header {
     text-align: center;
     text-wrap: nowrap;
 }
+
 .about__main__inf__h12 {
     font-weight: 700;
     font-size: 96px;
@@ -222,9 +227,38 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 2;
 }
 .header__main__right__sub1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+.header__main__left {
+    border-radius: 8px;
+    box-shadow: 12px 12px 0 0 #81ADC8;
+}
+.header__main__right {
+    z-index: 2;
+    max-width: 570px;
+    margin-bottom: 16px;
+}
+.header__main__right h2 {
+    font-weight: 700;
+    font-size: 36.65px;
+}
+.header__main__right__sub1 p {
+    color: #CD4631;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.header__main__right__sub1 h4 {
+    color: #CD4631;
+    font-weight: 700;
+    font-size: 12px;
+    border: 1px solid #CD4631;
+    padding: 3px 6px;
+    border-radius: 4px;
 }
