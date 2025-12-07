@@ -449,12 +449,46 @@ header {
 .sponsor__undertitle {
     margin-bottom: 100px;
 }
+/* SPONSOR__SLIDER SPONSOR__SLIDER SPONSOR__SLIDER SPONSOR__SLIDER SPONSOR__SLIDER */
 .sponsor__slider {
     grid-row: 3/4;
     grid-column: 1/13;
     height: 245px;
-    background-color: #CD4631;
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.sponsor__carousel {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.5s ease-in-out;
+}
+.sponsor__carousel__cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 570px;
+    height: 245px;
+    border: 1.61px solid #000;
+    border-radius: 12px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding: 40px 17px 30px;
+}
+.sponsor__carousel__cont img {
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid #4D4D4D;
+    margin-bottom: 30px;
+    height: 49px;
+}
+.sponsor__carousel__cont p {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #4D4D4D;
+    max-width: 462px;
 }
 .sponsor__pagination {
     grid-row: 4/5;
@@ -468,7 +502,7 @@ header {
     border: none;
     background-color: inherit;
 }
-
+/* SPONSOR__SLIDER SPONSOR__SLIDER SPONSOR__SLIDER SPONSOR__SLIDER SPONSOR__SLIDER */
 
 /* GET GET GET GET GET GET GET GET GET GET GET GET GET GET GET */
 .get {
